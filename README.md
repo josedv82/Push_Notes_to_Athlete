@@ -14,7 +14,7 @@ This shiny app uses the package {pushover} to add the functionality to send noti
 * Create an app
 * Both the user key and pushover app keys provided during the registration process will be needed for the shiny app.
 
-** For further intructions on how to do this follow [this tutorial](https://github.com/briandconnelly/pushoverr)
+**For further intructions on how to do this follow [this tutorial](https://github.com/briandconnelly/pushoverr)
 
 Alternatively, you can choose other options such as [slack](https://github.com/hrbrmstr/slackr), [pushbullet](https://cran.r-project.org/web/packages/RPushbullet/index.html), etc.. depending on your organization's requirements.
 
