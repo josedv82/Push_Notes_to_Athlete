@@ -3,7 +3,7 @@ A basic athlete dashboard built in Shiny that enables coaches send notes directl
 
 ## Demo
 
-[](push00.gif)
+![](push00.gif)
 
 ## Content
 This shiny app uses the package {pushover} to add the functionality to send notifications to athletes mobile phones directly from the dashboard. Steps to build the app:
