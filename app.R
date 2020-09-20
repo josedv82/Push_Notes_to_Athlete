@@ -106,8 +106,8 @@ server <- function(input, output){
       easyClose = T))
     
            pushover(message = as.character(input$text), 
-                    user = "uevg29ihn87rdhz9j98gerfw88xhc2", 
-                    app = "a6kiczgkv5jm1yoi2723osxvyqms7s")
+                    user = "your_user_key_here", 
+                    app = "your_app_key_here")
         
     
        })
