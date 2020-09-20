@@ -14,7 +14,6 @@ library(htmlwidgets)
 library(htmltools)
 library(formattable)
 library(sparkline)
-library(feather)
 library(DT)
 library(shinyjs)
 
