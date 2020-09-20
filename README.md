@@ -1,5 +1,5 @@
 # Push Notes to Athlete's Phones
-A basic athlete dashboard built in Shiny that enables coaches send notes directly to athletes's phone from the app.
+A minimal athlete dashboard app built in Shiny that let coaches send notes directly to athletes's phone from within the dashboard.
 
 ## Demo
 
