@@ -10,7 +10,7 @@ This shiny app uses the package {pushover} to add the functionality to send noti
 
 #### Register on Pushover
 
-* Register an account in pushover (it offers a free trial)
+* Register an account on pushover (it offers a free trial)
 * Create an app
 * Both the user key and pushover app keys provided during the registration process will be needed for the shiny app.
 
@@ -22,7 +22,7 @@ Alternatively, you can choose other options such as [slack](https://github.com/h
 
 * Download your data and format your dashboard. I did this [here](https://github.com/josedv82/Push_Notes_to_Athlete/blob/master/data.R). Notice the addition on the final join statement of the functionality that enables to add multiple buttons to a table with a different id, which means you only need to create one modal or one observeEvent.
 
-* Design your app. Example my code is [here](https://github.com/josedv82/Push_Notes_to_Athlete/blob/master/app.R)
+* Design your app. My code example is [here](https://github.com/josedv82/Push_Notes_to_Athlete/blob/master/app.R)
 
 #### Disclaimer
 
