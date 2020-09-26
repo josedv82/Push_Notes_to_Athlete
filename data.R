@@ -105,7 +105,7 @@ table <- full_join(weekLoad, photo, by = c("Player")) %>%
 
 table2 <- table %>% arrange(desc("totalLoad"))%>%
 
-  #this mutate statement creates a button column that can be executed with the same modal  
+  #this mutate statement creates a column of buttons that can be executed with just one modal  
   mutate(SMS = sapply(1:nrow(table), function(i){
     sprintf("<button id='inf%d' type='button' class='btn btn-default action-button shiny-bound-input'><i class= 'glyphicon glyphicon-send'/></button>",i)
   })) %>%
